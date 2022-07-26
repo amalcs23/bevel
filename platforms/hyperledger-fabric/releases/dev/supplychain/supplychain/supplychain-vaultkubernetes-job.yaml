@@ -22,7 +22,7 @@ spec:
     vault:
       reviewer_service: vault-reviewer
       role: vault-role
-      address: http://localhost:8200
+      address: http://127.0.0.1:8200
       authpath: localsupplychain-net-auth
       policy: vault-crypto-orderer-supplychain-net-ro
       secret_path: secretsv2
